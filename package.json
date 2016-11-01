@@ -1,0 +1,24 @@
+{
+  "name": "zhengjunchan-website",
+  "version": "1.0.0",
+  "description": "郑君婵的个人网站",
+  "main": "main.js",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhengJunChan/zhengjunchan.github.io.git"
+  },
+  "author": "Zheng Jun Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhengJunChan/zhengjunchan.github.io/issues"
+  },
+  "homepage": "https://github.com/ZhengJunChan/zhengjunchan.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
