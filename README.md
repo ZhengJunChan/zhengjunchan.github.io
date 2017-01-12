@@ -1,8 +1,9 @@
-# zhengjunchan.github.io
-郑君婵的github博客
+**安装**
+------
+----------
 
-
-//全局安装
-npm install -g webpack
-//安装到你的项目目录
-npm install --save-dev webpack
+ 1. 安装node
+ 
+ 2. 文件根目录中执行  `npm install`
+ 
+ 4. 运行代码  `npm run dev`
