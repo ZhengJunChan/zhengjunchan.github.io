@@ -1,0 +1,45 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "郑君婵的github博客",
+  "main": "build/js/main.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "start": "webpack-dev-serve r --inline",
+    "build": "NODE_ENV=production webpack --config ./configs/build.js--progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhengJunChan/zhengjunchan.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhengJunChan/zhengjunchan.github.io/issues"
+  },
+  "homepage": "https://github.com/ZhengJunChan/zhengjunchan.github.io#readme",
+  "devDependencies": {
+    "assets-webpack-plugin": "^3.5.0",
+    "autoprefixer": "^6.6.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.26.0",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.1.1",
+    "postcss-loader": "^1.2.1",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "vue": "^2.1.8",
+    "vue-resource": "^1.0.3",
+    "vue-router": "^2.1.1"
+  }
+}
